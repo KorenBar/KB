@@ -1,0 +1,15 @@
+C:\Users\Technoso\Documents\Projects\KB.Data\KB.Data\bin\Debug\KB.Data.dll
+C:\Users\Technoso\Documents\Projects\KB.Data\KB.Data\bin\Debug\KB.Data.pdb
+C:\Users\Technoso\Documents\Projects\KB.Data\KB.Data\obj\Debug\KB.Data.csprojAssemblyReference.cache
+C:\Users\Technoso\Documents\Projects\KB.Data\KB.Data\obj\Debug\KB.Data.csproj.CoreCompileInputs.cache
+C:\Users\Technoso\Documents\Projects\KB.Data\KB.Data\obj\Debug\KB.Data.dll
+C:\Users\Technoso\Documents\Projects\KB.Data\KB.Data\obj\Debug\KB.Data.pdb
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Data\bin\Debug\KB.Data.dll
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Data\bin\Debug\KB.Data.pdb
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Data\obj\Debug\KB.Data.csprojAssemblyReference.cache
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Data\obj\Debug\KB.Data.csproj.CoreCompileInputs.cache
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Data\obj\Debug\KB.Data.csproj.CopyComplete
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Data\obj\Debug\KB.Data.dll
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Data\obj\Debug\KB.Data.pdb

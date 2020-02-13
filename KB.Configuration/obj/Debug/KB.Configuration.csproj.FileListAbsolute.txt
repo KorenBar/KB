@@ -1,0 +1,11 @@
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\bin\Debug\KB.Configuration.dll
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\bin\Debug\KB.Configuration.pdb
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\bin\Debug\KB.Data.dll
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\bin\Debug\KB.Data.pdb
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\obj\Debug\KB.Configuration.csprojAssemblyReference.cache
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\obj\Debug\KB.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\obj\Debug\KB.Configuration.csproj.CopyComplete
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\obj\Debug\KB.Configuration.dll
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Configuration\obj\Debug\KB.Configuration.pdb

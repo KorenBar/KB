@@ -1,0 +1,6 @@
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB\bin\Debug\KB.dll
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB\bin\Debug\KB.pdb
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB\obj\Debug\KB.csprojAssemblyReference.cache
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB\obj\Debug\KB.csproj.CoreCompileInputs.cache
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB\obj\Debug\KB.dll
+C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB\obj\Debug\KB.pdb
