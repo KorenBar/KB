@@ -143,7 +143,11 @@ namespace KB.Data
                                         sectionDic.Add(ls[0].Trim(), ls[1].Trim().Replace(@"\r\n", Environment.NewLine));
                             }
                     }
-                    dictionary.Add(sectionName, sectionDic);
+                    if (dictionary.ContainsKey(sectionName))
+                        foreach (var kv in sectionDic)
+                            dictionary[sectionName][kv.Key] = kv.Value;
+                    else
+                        dictionary[sectionName] = sectionDic;
                 }
             }
             return dictionary;
