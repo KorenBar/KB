@@ -85,8 +85,6 @@ namespace KB.Data
                 Directory.CreateDirectory(Directory.GetParent(FileName).FullName);
                 File.Create(FileName).Close();
             }
-            string[] lines = File.ReadAllLines(FileName);
-            List<string> newLines = new List<string>();
             foreach (var secDic in dictionary)
                 foreach (var keyValue in secDic.Value)
                     WritePrivateProfileString(secDic.Key, keyValue.Key, Regex.Replace(keyValue.Value, @"\r\n|\t|\n|\r", @"\r\n"), FileName);
