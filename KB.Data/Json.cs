@@ -181,7 +181,7 @@ namespace PalLPRConfigurator
                 throw new ArgumentException("Parameter cannot be null.", "key");
         }
 
-        public void Set(List<JSONData> list)
+        public void Set(IEnumerable<JSONData> list)
         {
             this.Set(list.ToArray());
         }
