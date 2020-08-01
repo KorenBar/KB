@@ -1,6 +1,4 @@
-﻿// 28.06.19 - First Save
-// 07.10.19 - Add func with JSONData parm key fixed.
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +6,11 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace PalLPRConfigurator
+namespace KB.Data
 {
     public class JSONData : System.Collections.Generic.IEnumerable<JSONData>
     {
-        // Notes: 
+        // Notes for Newtonsoft.Json:
         // 1. DeserializeObject("Clear String") returns error. (Add '' to avoid this error => DeserializeObject("'Value String'"))
         // 2. SerializeObject(null) returns "null" string.
         // 3. JObject.ToString() returns designed JSON.
