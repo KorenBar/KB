@@ -1,6 +1,0 @@
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Utility\bin\Debug\KB.Utility.dll
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Utility\bin\Debug\KB.Utility.pdb
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Utility\obj\Debug\KB.Utility.csprojAssemblyReference.cache
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Utility\obj\Debug\KB.Utility.csproj.CoreCompileInputs.cache
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Utility\obj\Debug\KB.Utility.dll
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Utility\obj\Debug\KB.Utility.pdb

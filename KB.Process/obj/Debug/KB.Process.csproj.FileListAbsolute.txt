@@ -1,6 +1,0 @@
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Process\bin\Debug\KB.Process.dll
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Process\bin\Debug\KB.Process.pdb
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Process\obj\Debug\KB.Process.csprojAssemblyReference.cache
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Process\obj\Debug\KB.Process.csproj.CoreCompileInputs.cache
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Process\obj\Debug\KB.Process.dll
-C:\Users\Technoso\Documents\Visual Studio 2017\Projects\KB\KB.Process\obj\Debug\KB.Process.pdb
