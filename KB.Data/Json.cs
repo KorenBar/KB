@@ -160,6 +160,18 @@ namespace PalLPRConfigurator
             }
         }
 
+        public void Add(string key, IEnumerable<JSONData> value)
+        {
+            Add(key, value.ToArray());
+        }
+
+        public void Add(string key, JSONData[] value)
+        {
+            JSONData jd = new JSONData();
+            jd.Set(value);
+            Add(key, jd);
+        }
+
         public void Add(string key, JSONData value)
         {
             this[key] = value;
