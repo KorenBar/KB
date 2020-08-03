@@ -14,7 +14,7 @@ namespace KB.Configuration
     {
         public static Ini Default { get; set; } = 
             new Ini((from f in new StackTrace().GetFrames() select f.GetMethod().ReflectedType.Assembly.GetName().Name).Distinct().Last() + ".ini");
-
+        
         public IniFile IniFile { get; private set; }
 
         public Ini(string fileName)
