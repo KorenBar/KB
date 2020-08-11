@@ -57,6 +57,7 @@
     <Compile Include="Data\Json.cs" />
     <Compile Include="Processes\ProcessHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Threading\ActionScheduler.cs" />
     <Compile Include="Utility\ConsoleHelper.cs" />
     <Compile Include="Utility\Encryption.cs" />
     <Compile Include="Utility\Extensions.cs" />
