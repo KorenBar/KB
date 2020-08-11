@@ -1,10 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Runtime.InteropServices;
+using System.Diagnostics;
 
 namespace KB.Utility
 {
-    public static class Console
+    public static class ConsoleHelper
     {
         public static string[] Args { get; private set; } = System.Environment.GetCommandLineArgs();
         public static Dictionary<string, string> ArgsValues { get; private set; } = Args.Select((v, i) => new { Value = v, Index = i }).Where(arg => arg.Value.TrimStart().StartsWith("-")).ToDictionary(arg => string.Concat(arg.Value.TrimStart().Skip(1)), arg => Args.Length > arg.Index + 1 ? Args[arg.Index + 1] : null);
