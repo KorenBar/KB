@@ -35,13 +35,11 @@ namespace KB.Configuration
             return true;
         }
 
+
         public object LoadProperties(object obj) => LoadProperties(obj, obj.GetType().Name);
-
         public object LoadProperties(object obj, string sectionName) => LoadProperties(obj, IniFile.ToDictionary(sectionName));
-
-        public object LoadProperties(object obj, Dictionary<string, string> properties) => LoadProperties(obj, properties.ToDictionary(i => i.Key, i => i.Value as object));
-
-        public object LoadProperties(object obj, Dictionary<string, object> properties)
+        public static object LoadProperties(object obj, Dictionary<string, string> properties) => LoadProperties(obj, properties.ToDictionary(i => i.Key, i => i.Value as object));
+        public static object LoadProperties(object obj, Dictionary<string, object> properties)
         {
             foreach (PropertyInfo pi in obj.GetType().GetProperties())
                 if (properties.Keys.Contains(pi.Name) && pi.CanWrite)
