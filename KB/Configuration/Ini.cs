@@ -35,6 +35,9 @@ namespace KB.Configuration
             return true;
         }
 
+        public void SaveProperties(object obj) => SaveProperties(obj, obj.GetType().Name);
+        public void SaveProperties(object obj, string sectionName) =>
+            IniFile.WriteValues(sectionName, obj.GetType().GetProperties().Where(pi => pi.CanRead).ToDictionary(pi => pi.Name, pi => (pi.GetValue(obj) ?? "").ToString()));
 
         public object LoadProperties(object obj) => LoadProperties(obj, obj.GetType().Name);
         public object LoadProperties(object obj, string sectionName) => LoadProperties(obj, IniFile.ToDictionary(sectionName));
