@@ -29,7 +29,7 @@ namespace KB.Data
         /// <param name="filePath"></param>
         public IniFile(string fileName)
         {
-            FileName = fileName;
+            FileName = Path.GetFullPath(fileName);
         }
 
         private static bool IsSectionName(string line)
