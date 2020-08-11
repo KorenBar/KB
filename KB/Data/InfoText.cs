@@ -11,7 +11,10 @@ namespace KB.Data
     /// </summary>
     public class InfoText
     {
-        
+        public static implicit operator InfoText(string value) => new InfoText(value);
+
+        public static implicit operator string(InfoText value) => value.ToString();
+
         List<string> lines;
 
         /// <summary>
@@ -117,15 +120,6 @@ namespace KB.Data
         /// Read All Text From the Info Text
         /// </summary>
         /// <returns></returns>
-        public override string ToString()
-        {
-            string text = string.Empty;
-            for (int l = 0; l < this.lines.Count - 1; l++)
-            {
-                text += this.lines[l] + System.Environment.NewLine; 
-            }
-            text += this.lines.Last();
-            return text;
-        }
+        public override string ToString() => string.Join(Environment.NewLine, this.lines);
     }
 }
