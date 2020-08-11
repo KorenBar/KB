@@ -44,11 +44,17 @@ namespace KB.Configuration
         public object LoadProperties(object obj, Dictionary<string, object> properties)
         {
             foreach (PropertyInfo pi in obj.GetType().GetProperties())
-                if (properties.Keys.Contains(pi.Name))
-                    if (pi.PropertyType.IsEnum)
-                        pi.SetValue(obj, Enum.Parse(pi.PropertyType, (string)properties[pi.Name]));
-                    else
-                        pi.SetValue(obj, Convert.ChangeType(properties[pi.Name], pi.PropertyType), null);
+                if (properties.Keys.Contains(pi.Name) && pi.CanWrite)
+                    try
+                    {
+                        if (pi.PropertyType.IsEnum)
+                            pi.SetValue(obj, Enum.Parse(pi.PropertyType, (string)properties[pi.Name]));
+                        else if (pi.PropertyType == typeof(TimeSpan))
+                            pi.SetValue(obj, TimeSpan.Parse(properties[pi.Name] as string));
+                        else
+                            pi.SetValue(obj, Convert.ChangeType(properties[pi.Name], pi.PropertyType), null);
+                    }
+                    catch { }
             return obj;
         }
     }
