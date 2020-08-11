@@ -29,5 +29,19 @@ namespace KB.Utility
             System.Console.WriteLine();
             return result;
         }
+
+        public static int WriteErrorLine(string value)
+        {
+            WriteLine(value, ConsoleColor.Red);
+            return Environment.ExitCode = 1;
+        }
+
+        public static void WriteLine(string value, ConsoleColor color)
+        {
+            ConsoleColor bak = Console.ForegroundColor;
+            Console.ForegroundColor = color;
+            Console.Error.WriteLine(value);
+            Console.ForegroundColor = bak;
+        }
     }
 }
