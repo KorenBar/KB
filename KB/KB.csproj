@@ -55,6 +55,7 @@
     <Compile Include="Data\InfoText.cs" />
     <Compile Include="Data\IniFile.cs" />
     <Compile Include="Data\Json.cs" />
+    <Compile Include="Processes\ProcessHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\ConsoleHelper.cs" />
     <Compile Include="Utility\Encryption.cs" />
@@ -62,9 +63,7 @@
     <Compile Include="Utility\FileHelper.cs" />
     <Compile Include="Utility\Network.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Process\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
