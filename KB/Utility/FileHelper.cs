@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace KB.Utility
 {
-    public static class File
+    public static class FileHelper
     {
         public static bool AddLines(string fileName, string[] lines)
         {
