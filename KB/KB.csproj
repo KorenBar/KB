@@ -62,6 +62,7 @@
     <Compile Include="Utility\Encryption.cs" />
     <Compile Include="Utility\Extensions.cs" />
     <Compile Include="Utility\FileHelper.cs" />
+    <Compile Include="Utility\Logging.cs" />
     <Compile Include="Utility\Network.cs" />
   </ItemGroup>
   <ItemGroup />
