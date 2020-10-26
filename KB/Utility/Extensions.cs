@@ -204,5 +204,12 @@ namespace KB.Utility
             (leftPad ^ (reversePadForMidEast && IsStartingWithMiddleEasternLetter(str)) 
             ? str.PadLeft(targetLength) : str.PadRight(targetLength))
                 .Substring(0, targetLength);
+
+        /// <summary>
+        /// Merge all of the inner exceptions messages
+        /// </summary>
+        /// <returns>All messages one after the other with the separator between them</returns>
+        public static string JoinMessages(this Exception exception, string separator = "    ") =>
+            exception != null ? exception.Message + separator + JoinMessages(exception.InnerException, separator) : string.Empty;
     }
 }
