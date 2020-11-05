@@ -38,6 +38,7 @@ namespace KB.Data
             return l.StartsWith("[") && l.EndsWith("]") && !l.Contains("=");
         }
 
+        // TODO: this external function does not supports utf-8 writing, need to be replaced with custom code.
         [DllImport("kernel32")]
         private static extern long WritePrivateProfileString(string section, string key, string val, string filePath);
         [DllImport("kernel32")]
